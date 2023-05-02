@@ -20,9 +20,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.platform = Gem::Platform::RUBY
-  gem.required_ruby_version = ">= 2.6"
+  gem.required_ruby_version = ">= 2.5.8"
 
-  gem.add_dependency "faraday", ">= 0.17.3", "< 3.a"
+  gem.add_dependency "faraday", '~> 0.9.2'
   gem.add_dependency "jwt", ">= 1.4", "< 3.0"
   gem.add_dependency "memoist", "~> 0.16"
   gem.add_dependency "multi_json", "~> 1.11"
